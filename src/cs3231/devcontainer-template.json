@@ -1,5 +1,5 @@
 {
-    "id": "cs3231-devcontainer",
+    "id": "cs3231",
     "version": "1.0.0",
     "name": "cs3231 OS Development",
     "description": "A container for developing OS161 in cs3231.",

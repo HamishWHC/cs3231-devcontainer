@@ -1,17 +1,12 @@
 
-# Hello, World (hello)
+# UNSW cs3231 OS Development (cs3231)
 
-A hello world Template
+A container for developing OS161 in cs3231 at UNSW.
 
-## Options
 
-| Options Id | Description | Type | Default Value |
-|-----|-----|-----|-----|
-| imageVariant | Ubuntu version (use ubuntu-22.04 or ubuntu-18.04 on local arm64/Apple Silicon): | string | jammy |
-| greeting | Select a pre-made greeting, or enter your own | string | hey |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/devcontainers/template-starter/blob/main/src/hello/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/HamishWHC/cs3231-devcontainer/blob/main/src/cs3231/devcontainer-template.json).  Add additional notes to a `NOTES.md`._

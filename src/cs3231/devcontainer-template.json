@@ -1,0 +1,11 @@
+{
+    "id": "cs3231-devcontainer",
+    "version": "1.0.0",
+    "name": "cs3231 OS Development",
+    "description": "A container for developing OS161 in cs3231.",
+    "documentationURL": "https://github.com/HamishWHC/cs3231-devcontainer/blob/main/README.md",
+    "licenseURL": "https://github.com/HamishWHC/cs3231-devcontainer/blob/main/LICENSE",
+    "platforms": [
+        "Any"
+    ]
+}

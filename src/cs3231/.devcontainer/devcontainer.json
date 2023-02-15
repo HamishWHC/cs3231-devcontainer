@@ -1,6 +1,10 @@
 {
-	"name": "Favorite color",
-	"image": "mcr.microsoft.com/devcontainers/base:${templateOption:imageVariant}",
+	"name": "cs3231 OS Development",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"workspaceMount": "source=${localWorkspaceFolder},target=/home/osdev/cs3231,type=bind",
+	"workspaceFolder": "/home/osdev/cs3231"
 
 	// 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
 	// "features": {},
@@ -8,7 +12,8 @@
 	// 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
-	"postCreateCommand": "echo '${templateOption:favorite}' > /tmp/color.txt"
+	// 👇 Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "cat /usr/local/etc/greeting.txt"
 
 	// 👇 Configure tool-specific properties.
 	// "customizations": {},
